@@ -42,6 +42,9 @@ android {
 }
 
 dependencies {
+//    파이어베이스
+    implementation platform('com.google.firebase:firebase-bom:30.4.0')
+    implementation 'com.google.firebase:firebase-database-ktx'
 
     def lifecycle_version = "2.4.1"
     def arch_version = "2.1.0"
